@@ -1,4 +1,4 @@
 require("lollyxsrinand.keymaps")
-vim.cmd("set number")
+vim.cmd("set relativenumber")
 vim.keymap.set('n','<C-E>', vim.cmd.NERDTreeToggle)
 

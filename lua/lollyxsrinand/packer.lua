@@ -1,12 +1,10 @@
--- This file can be loaded by calling `lua require('plugins')` from your init.vim
-
 -- Only required if you have packer configured as `opt`
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
-	-- Packer can manage itself
+	-- Packer
 	use 'wbthomason/packer.nvim'
-	--
+
 	-- Telescope
 	use { 'nvim-telescope/telescope.nvim', tag = '0.1.6', requires = { {'nvim-lua/plenary.nvim'}}}
 
@@ -19,6 +17,7 @@ return require('packer').startup(function(use)
 	use('theprimeagen/harpoon')
 	use('mbbill/undotree')
 	use('tpope/vim-fugitive')
+	use 'lewis6991/gitsigns.nvim'
 
 	-- LSP 
 	use {
@@ -27,13 +26,13 @@ return require('packer').startup(function(use)
 		"neovim/nvim-lspconfig",
 	}
 
-	-- Nerd tree
+	-- Nerd Tree
 	use 'preservim/nerdtree'
 
 	-- Lualine
 	use { 'nvim-lualine/lualine.nvim', requires = { 'nvim-tree/nvim-web-devicons', opt = true } }
 
-	-- completion
+	-- Completion
 	use {
 		'https://github.com/hrsh7th/nvim-cmp',
 		'https://github.com/hrsh7th/cmp-nvim-lsp',

@@ -1,4 +1,4 @@
-function ColorMyPencils(color)
+function giveColors(color)
 	color = color or "gruvbox"
 	vim.cmd.colorscheme(color)
 
@@ -6,4 +6,4 @@ function ColorMyPencils(color)
 	vim.api.nvim_set_hl(0, "Normalfloat", { bg = "none" })
 end
 
-ColorMyPencils()
+giveColors()
