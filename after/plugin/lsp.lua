@@ -1,6 +1,6 @@
 require("mason").setup()
 require("mason-lspconfig").setup({
-ensure_installed = { "lua_ls", "clangd", "tsserver" }})
+ensure_installed = { "lua_ls", "clangd", "tsserver", "cssls"  }})
 
 local on_attach = function(_, _)
 	vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, {})
@@ -22,6 +22,10 @@ require("lspconfig").clangd.setup {
 }
 
 require("lspconfig").tsserver.setup {
+	on_attach = on_attach,
+	capabilities = capabilities,
+}
+require("lspconfig").cssls.setup {
 	on_attach = on_attach,
 	capabilities = capabilities,
 }
