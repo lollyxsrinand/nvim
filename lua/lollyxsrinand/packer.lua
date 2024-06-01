@@ -42,5 +42,8 @@ return require('packer').startup(function(use)
 		"windwp/nvim-autopairs",
 		"https://github.com/windwp/nvim-ts-autotag"
 	}
+
+	-- Discord
+	use "andweeb/presence.nvim"
 end)
 
