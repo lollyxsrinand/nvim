@@ -11,7 +11,8 @@ require("presence").setup({
     buttons             = true,
     file_assets         = {},
     show_time           = true,
--- Rich Presence text options
+
+    -- Text options
     editing_text        = "Editing %s",
     file_explorer_text  = "Browsing %s",
     git_commit_text     = "Committing changes",
