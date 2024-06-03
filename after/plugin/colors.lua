@@ -1,3 +1,6 @@
+require('gruvbox').setup({
+	  transparent_mode = true,
+})
 function giveColors(color)
 	color = color or "gruvbox"
 	vim.cmd.colorscheme(color)

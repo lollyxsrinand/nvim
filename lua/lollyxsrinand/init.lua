@@ -1,4 +1,6 @@
 require("lollyxsrinand.keymaps")
 vim.cmd("set relativenumber")
-vim.keymap.set('n','<C-E>', vim.cmd.NERDTreeToggle)
-
+vim.cmd("set nowrap")
+vim.cmd("set shiftwidth=4")
+vim.cmd("set tabstop=4")
+vim.cmd("set nohls")

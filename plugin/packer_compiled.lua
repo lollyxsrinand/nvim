@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/home/srinand/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["cord.nvim"] = {
+    loaded = true,
+    path = "/home/srinand/.local/share/nvim/site/pack/packer/start/cord.nvim",
+    url = "https://github.com/vyfor/cord.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/srinand/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -124,6 +129,11 @@ _G.packer_plugins = {
     path = "/home/srinand/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["neovim-ayu"] = {
+    loaded = true,
+    path = "/home/srinand/.local/share/nvim/site/pack/packer/start/neovim-ayu",
+    url = "https://github.com/Shatur/neovim-ayu"
+  },
   nerdtree = {
     loaded = true,
     path = "/home/srinand/.local/share/nvim/site/pack/packer/start/nerdtree",
@@ -138,6 +148,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/srinand/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-comment"] = {
+    loaded = true,
+    path = "/home/srinand/.local/share/nvim/site/pack/packer/start/nvim-comment",
+    url = "https://github.com/terrortylor/nvim-comment"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
@@ -174,11 +189,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/srinand/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
-  },
-  ["presence.nvim"] = {
-    loaded = true,
-    path = "/home/srinand/.local/share/nvim/site/pack/packer/start/presence.nvim",
-    url = "https://github.com/andweeb/presence.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,

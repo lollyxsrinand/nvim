@@ -9,7 +9,8 @@ return require('packer').startup(function(use)
 	use { 'nvim-telescope/telescope.nvim', tag = '0.1.6', requires = { {'nvim-lua/plenary.nvim'}}}
 
 	-- Theme
-	use { "ellisonleao/gruvbox.nvim" }
+	use 'ellisonleao/gruvbox.nvim'
+	use 'Shatur/neovim-ayu'
 
 	-- god save me
 	use( 'nvim-treesitter/nvim-treesitter', {run =  ':TSUpdate'})
@@ -43,7 +44,11 @@ return require('packer').startup(function(use)
 		"https://github.com/windwp/nvim-ts-autotag"
 	}
 
-	-- Discord
-	use "andweeb/presence.nvim"
+	use {
+		'vyfor/cord.nvim',
+		run = './build',
+	}
+	-- Comments
+	use 'terrortylor/nvim-comment'
 end)
 
