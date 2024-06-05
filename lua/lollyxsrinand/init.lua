@@ -1,6 +1,2 @@
 require("lollyxsrinand.keymaps")
-vim.cmd("set relativenumber")
-vim.cmd("set nowrap")
-vim.cmd("set shiftwidth=4")
-vim.cmd("set tabstop=4")
-vim.cmd("set nohls")
+require("lollyxsrinand.set")
